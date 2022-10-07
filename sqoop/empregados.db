@@ -1,0 +1,12 @@
+mysql> create database testedb;
+
+mysql> use testedb;
+
+mysql> create table empregados (username varchar(30), password varchar(30));
+
+mysql> insert into empregados values
+						('Alan Turing', 'dbhadoop'), 
+						('Peter Bruce', 'dbhsqoop'), 
+						('Aurelien Geron, 'dbhscikit'), 
+						('Wes McKinney', 'dbdados'), 
+						('Daniel Mendes', 'dbdata');
