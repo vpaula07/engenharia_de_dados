@@ -43,3 +43,6 @@ hdfs dfs -put Datasets/amigos_facebook.csv /mapred
 
 ##### Processar o Job mapReduce
 python Analytics/AmigosIdade.py hdfs:///mapred/amigos_facebook.csv -r hadoop
+
+##### Resultado 
+[AmigosIdade.csv](https://github.com/vpaula07/engenharia_de_dados/blob/main/mapreduce/AmigosIdade.csv)
