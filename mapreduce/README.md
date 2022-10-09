@@ -5,7 +5,7 @@
 Um trabalho MapReduce geralmente divide o conjunto de dados de entrada em partes independentes que são processadas pelas tarefas de mapa de maneira completamente paralela. A estrutura classifica as saídas dos mapas, que são então inseridas nas tarefas de redução . Normalmente, tanto a entrada quanto a saída do trabalho são armazenadas em um sistema de arquivos. A estrutura se encarrega de agendar tarefas, monitorá-las e reexecutar as tarefas com falha.
 
 
-### Problema de negócio
+### Problemas de negócios
 
 ***1. Identificar através de uma base de dados: Quantos filmes tiveram de 1 a 5 estrelas?***
 
