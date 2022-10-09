@@ -29,11 +29,7 @@ hdfs dfs -put u.data /mapred
 python AvaliaFile.py hdfs:///mapred/u.data - r hadoop
 
 #### Resultado 
-"1"	6110
-"2"	11370
-"3"	27145
-"4"	34174
-"5"	21201
+![resultado_stars](img/result_stars.png)
 
 ![resultado_grafico](img/result_movie.png)
 
