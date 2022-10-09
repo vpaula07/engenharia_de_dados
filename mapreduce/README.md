@@ -22,5 +22,18 @@ hdfs dfs -put u.data /mapred
 
 #### Executar o Job MapReduce
 
+![job_mapreduce](img/job_mapreduce.png)
 
+#### Executar o MapReduce ao dataset em um cluster Hadoop
+
+python AvaliaFile.py hdfs:///mapred/u.data - r hadoop
+
+#### Resultado 
+"1"	6110
+"2"	11370
+"3"	27145
+"4"	34174
+"5"	21201
+
+![resultado_grafico](img/result_movie.png)
 
