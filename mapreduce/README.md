@@ -35,11 +35,11 @@ python AvaliaFilme.py hdfs:///mapred/u.data - r hadoop
 
 ***2. Gerar Média de Amigos no Facebook por Idade***
 
-# Copiar o arquivo para o HDFS
+##### Copiar o arquivo para o HDFS
 hdfs dfs -put Datasets/amigos_facebook.csv /mapred
 
 #### Executar o Job MapReduce
 ![amigos_idade](img/AmigosIdade.png)
 
-# Processar o Job mapReduce
+##### Processar o Job mapReduce
 python Analytics/AmigosIdade.py hdfs:///mapred/amigos_facebook.csv -r hadoop
