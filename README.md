@@ -4,4 +4,4 @@
 Trabalhamos com 3 softwares ( HDFS que é um sistema distribuído, Sqoop - ferramnenta ETL do ecossistema Hadoop e MySQL - banco de dados relacional). Trazemos os dados para o Data Lake (usando o HDFS para criá-lo), aplicamos o MapReduce e utilizamos o Sqoop. Foi criado o banco de dados no MySQL e feita a importação para o HDFS utilizando o Sqoop.
 
 ### [Trabalhando com MapReduce](https://github.com/vpaula07/engenharia_de_dados/tree/main/mapreduce)
-Aplicar um Job mapReduce em uma base de dados para identificar um problema de negócio.
+Aplicar um Job MapReduce em uma base de dados para identificar um problema de negócio.
