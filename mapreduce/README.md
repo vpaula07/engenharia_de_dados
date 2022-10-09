@@ -26,7 +26,7 @@ hdfs dfs -put u.data /mapred
 
 #### Executar o MapReduce ao dataset em um cluster Hadoop
 
-python AvaliaFile.py hdfs:///mapred/u.data - r hadoop
+python AvaliaFilme.py hdfs:///mapred/u.data - r hadoop
 
 #### Resultado 
 ![resultado_stars](img/result_stars.png)
