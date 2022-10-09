@@ -7,7 +7,7 @@ Um trabalho MapReduce geralmente divide o conjunto de dados de entrada em partes
 
 ### Problema de negócio
 
-***Identificar através de uma base de dados: Quantos filmes tiveram de 1 a 5 estrelas?***
+***1. Identificar através de uma base de dados: Quantos filmes tiveram de 1 a 5 estrelas?***
 
 Baixar um conjunto de dados do [site](https://grouplens.org/datasets/movielens/). 
 
@@ -33,3 +33,13 @@ python AvaliaFilme.py hdfs:///mapred/u.data - r hadoop
 
 ![resultado_grafico](img/result_movie.png)
 
+***2. Gerar Média de Amigos no Facebook por Idade***
+
+# Copiar o arquivo para o HDFS
+hdfs dfs -put Datasets/amigos_facebook.csv /mapred
+
+#### Executar o Job MapReduce
+![amigos_idade](img/AmigosIdade.png)
+
+# Processar o Job mapReduce
+python Analytics/AmigosIdade.py hdfs:///mapred/amigos_facebook.csv -r hadoop
